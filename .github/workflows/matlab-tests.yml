@@ -1,6 +1,7 @@
 name: MATLAB test job
 
 on:
+  workflow_dispatch:
   workflow_call:
     inputs:
       group:
